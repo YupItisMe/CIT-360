@@ -8,6 +8,7 @@ public class myMap {
 		happyMap();
 		happyList();
 		happySet();
+		happyTree();
 		
 	}
 
@@ -92,6 +93,15 @@ public class myMap {
 			System.out.println(myString);
 		}
 	}
-
+	public static void happyTree() {
+		TreeSet myTree = new TreeSet();
+		myTree.add("Snickers");
+		myTree.add("Milky-Way");
+		myTree.add("Kit-Kat");
+		myTree.add("Mars");
+		myTree.add("Crunch");
+		System.out.println();
+		System.out.println("Some yummy candy bars!");
+		System.out.println("\t" + myTree);
+	}
 }
-
