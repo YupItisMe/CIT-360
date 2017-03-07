@@ -1,14 +1,13 @@
 
-public class Romance implements Handler {
 
-    public void list(){
-        System.out.println("Enjoy some really fun Romantic Books.");
-        System.out.println("---- Romance Genre ----");
-        System.out.println("He Is Hot");
-        System.out.println("She Is Hot");
-        System.out.println("He Is Hot2");
-        System.out.println("We Like The Beach");
-        System.out.println("I Love my Own Arms");
-    }
-
+public class Romance implements Handler{
+	 @Override
+	 public void execute(int book) {
+	     System.out.println("I have nice pecks");
+	     System.out.println("Stinky Love 1");
+	     System.out.println("Stinky Love 2");
+	     System.out.println("Do you love me?");
+	     System.out.println("Fifty Shades of Gandalf");
+	     
+	 }
 }

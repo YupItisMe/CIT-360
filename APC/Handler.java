@@ -1,7 +1,5 @@
 
+
 public interface Handler {
-
-     void list();
-
+    void execute(int book);
 }
-

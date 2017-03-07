@@ -1,12 +1,11 @@
 
+
 public class Fantasy implements Handler {
-
-    public void list(){
-        System.out.println("\nWhy not spend your time on one of these fantastical fantasys");
-        System.out.println("---- Fantasy ----");
-        System.out.println("Harry Carpenter");
-        System.out.println("Lord of the Bracelets");
-        System.out.println("Game of Stools");
-    }
-
+ @Override
+ public void execute(int book) {
+     System.out.println("Romantic Fantasy with Ben");
+     System.out.println("Poetic Fantasy with Sara");
+     System.out.println("Science Fiction Fantasy with Paula");
+     System.out.println("Star Wars");
+ }
 }
