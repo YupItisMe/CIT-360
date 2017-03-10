@@ -1,52 +1,48 @@
-
 import java.io.Serializable;
 
-// implements Serializable interface
+/**
+ * Created by gvh57 on 10/6/2016.
+ */
 public class Person implements Serializable {
-
-    // Private attributes
     private String name;
     private int age;
-    private int weight;
+    private int streetNumber;
+    boolean isDead;
+    private int zipCode;
 
-    // Public Constructor (without parameters or in other words empty)
-    public Person() {
+    Person(){
     }
 
-    public Person(String name, int age, int weight) {
-        this.name = name;
-        this.age = age;
-        this.weight = weight;
+    public boolean isDead() {
+        return isDead;
     }
 
-    // Getter for name
+    public void setDead(boolean dead) {
+        isDead = dead;
+    }
+
     public String getName() {
-        return this.name;
+        return name;
     }
 
-    // Setter for name
     public void setName(String name) {
         this.name = name;
     }
 
-    // Getter for age
     public int getAge() {
-        return this.age;
+        return age;
     }
 
-    // Setter for age
     public void setAge(int age) {
         this.age = age;
     }
 
-    // Getter for weight
-    public int getWeight() {
-        return this.weight;
+    public int getStreetNumber() {
+        return streetNumber;
     }
 
-    // Setter for weight
-    public void setWeight(int weight) {
-        this.weight = weight;
+    public void setStreetNumber(int streetNumber) {
+        this.streetNumber = streetNumber;
     }
 
 }
