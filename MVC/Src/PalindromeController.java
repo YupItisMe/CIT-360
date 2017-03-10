@@ -5,7 +5,7 @@ public class PalindromeController {
 
         model.isPal(view.getUserString());
 
-        if(model.isPalindrome()){
+        if(model.palTest()){ // the two are seperated and the controller plays the middle man.
             view.isPalindrome();
         }else{
             view.notPalindrome();

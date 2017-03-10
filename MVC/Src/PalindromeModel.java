@@ -1,18 +1,18 @@
 
 public class PalindromeModel {
 
-    boolean isPalindrome;
+    boolean palTest;
 
     public PalindromeModel(){
 
     }
 
     public void isPal(String pal){
-        isPalindrome = pal.equals(new StringBuilder(pal).reverse().toString());
+        palTest = pal.equals(new StringBuilder(pal).reverse().toString());
     }
 
-    public boolean isPalindrome() {
-        return isPalindrome;
+    public boolean palTest() {
+        return palTest;
     }
 
 }
