@@ -6,8 +6,8 @@ public class jUnitTesting {
     // assert Equals
     @Test
     public void checkArrayEquals() throws Exception {
-        int[] firstArray = {1, 2, 3, 4};
-        int[] secondArray = {5, 6, 7};
+        int[] firstArray = {100, 200, 300, 400};
+        int[] secondArray = {500, 600, 700};
         assertArrayEquals(firstArray, secondArray);
 }
 // assert NOT same
